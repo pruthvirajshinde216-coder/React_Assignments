@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  background: #805386;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.card {
+  background: rgb(65, 172, 160);
+  padding: 20px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(216, 18, 18, 0.15);
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  resize: none;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 18px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.qty {
+  display: inline-block;
+  width: 40px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.colorBox {
+  width: 220px;
+  height: 120px;
+  border: 2px solid rgb(152, 63, 63);
+  margin: 15px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
