@@ -31,6 +31,8 @@ function UserProfile() {
     margin: "8px",
     cursor: "pointer",
     fontSize: "16px",
+    transition: "0.3s",
+    boxShadow: "0 4px 8px rgba(0,0,0,0.2)",
     fontWeight: "bold",
   };
 

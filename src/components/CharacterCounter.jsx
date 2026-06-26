@@ -19,7 +19,10 @@ function CharacterCounter() {
     color: "blue",
     border: "2px solid #805386",
     borderRadius: "30px",
-    padding: "5px"
+    padding: "5px",
+    transition: "0.3s",
+    boxShadow: "0 4px 8px rgba(0,0,0,0.2)",
+    fontWeight: "bold"
   }}
 />
 

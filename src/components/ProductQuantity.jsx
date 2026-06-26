@@ -21,7 +21,10 @@ function ProductQuantity() {
     borderRadius: "30px",
     padding: "5px 20px",
     cursor: "pointer",
-    margin: "10px"
+    margin: "10px",
+    transition: "0.3s",
+    boxShadow: "0 4px 8px rgba(0,0,0,0.2)",
+    fontWeight: "bold"
   }}
 >
   -

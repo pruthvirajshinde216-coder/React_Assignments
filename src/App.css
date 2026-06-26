@@ -1,8 +1,23 @@
 body {
   margin: 0;
+  padding: 0;
   background: #805386;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Navbar */
+
+.navbar{
+    background:#5d5e63;
+    color:black;
+    text-align:center;
+    padding:20px;
+    font-size:28px;
+    font-weight:bold;
+    box-shadow:0 4px 8px rgba(0,0,0,.2);
+}
+
+/* Main Container */
 
 .container {
   width: 90%;
@@ -11,10 +26,17 @@ body {
   padding: 20px;
 }
 
-h1 {
-  text-align: center;
-  margin-bottom: 30px;
+.card:hover{
+    transform:translateY(-5px);
 }
+
+
+/* Heading */
+
+.card h2{
+    color:#1e3a8a;
+}
+
 
 .card {
   background: rgb(65, 172, 160);
@@ -24,19 +46,39 @@ h1 {
   box-shadow: 0 0 10px rgba(216, 18, 18, 0.15);
 }
 
-textarea {
-  width: 100%;
-  padding: 10px;
-  font-size: 16px;
-  resize: none;
+/* Textarea */
+
+textarea{
+    width:100%;
+    padding:10px;
+    font-size:16px;
+    border-radius:10px;
+    border:2px solid #59bf8f;
+    outline:none;
 }
 
-button {
-  margin: 5px;
-  padding: 10px 18px;
-  font-size: 16px;
-  cursor: pointer;
+/* Buttons */
+
+button{
+    padding:10px 20px;
+    margin:8px;
+    border:none;
+    border-radius:30px;
+    cursor:pointer;
+    font-size:16px;
+    font-weight:bold;
+    transition:.3s;
 }
+
+/* Button Hover */
+
+button:hover{
+    transform:scale(1.08);
+    box-shadow:0 5px 10px rgba(0,0,0,.3);
+}
+
+
+/* Quantity */
 
 .qty {
   display: inline-block;
@@ -45,14 +87,29 @@ button {
   font-size: 20px;
 }
 
-.colorBox {
-  width: 220px;
-  height: 120px;
-  border: 2px solid rgb(152, 63, 63);
-  margin: 15px 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 24px;
-  font-weight: bold;
+
+/* Color Box */
+
+.colorBox{
+    width:220px;
+    height:120px;
+    border:2px solid black;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:24px;
+    font-weight:bold;
+    margin:20px 0;
+    border-radius:10px;
+}
+
+
+/* Footer */
+
+.footer{
+    background:#5d5e63;
+    color:black;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
 }
